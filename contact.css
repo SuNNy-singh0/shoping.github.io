@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+ scroll-behavior: smooth;
+}
+body{
+    background: url('/images/pexels-fauxels-3184454.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+.form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 49%;
+    height: 344px;
+    margin-top: 62px;
+    
+}
+.form input{ 
+    text-align: -webkit-center;
+    align-items: center;
+    margin: 12px 2px 2px 190px;
+    padding: 10px 44px;
+    border: 3px solid goldenrod;
+    border-radius: 20px;
+}
+.form span{
+    display: block;
+    text-align: -webkit-center;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: blueviolet;
+    font-family: sans-serif;
+}
+.text-area{
+    margin: 20px 2px 2px -211px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+.text-area textarea{
+    border: 2px solid black;
+    border-radius: 59px;
+}
+.items{
+    text-align: right;
+}
+.nav img{
+    height: 53px;
+    float: left;
+    margin: -6px;
+}
+ul li{
+    display: inline;
+    margin: 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    padding: 6px 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul li a:hover{
+    border: 3px solid gold;
+    background-color: honeydew;
+    border-radius: 50px;
+    font-size: 1.4rem;
+}
+.nav{
+    background: #f7d0d2f2;
+    padding: 20px;
+    
+}
+span{
+    margin: 0px 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+.footer{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 154px;
+}
+.app{
+    font-family: sans-serif;
+    flex-basis: 30%;
+}
+.second{
+    flex-basis: 30%;
+    font-family: serif;
+    text-decoration: underline;
+}
+.second p{
+    font-size: 1.5rem;
+}
+.second img{
+    width: 80%;
+}
+.third{
+    flex-basis: 20%;
+    list-style: none;
+}
+.third h3{
+    color: purple ;
+}
+.media h3{
+    color: purple ;
+}
+.app h1{
+    color: purple ;
+}
+.third li{
+    margin-top: 8px;
+}
+.media li{
+    margin-top: 8px;
+}
+.media{
+    list-style: none;
+}
+#app-logo{
+    margin-top: 20px;
+    width: 347p;
+}
+.btn{
+    border: 2px solid purple;
+    margin: -136px 2px 2px 350px;
+    font-size: 20px;
+    border-radius: 40px;
+    background: powderblue;
+    padding: 9px 30px;
+    color: black;
+    cursor: pointer;
+    display: block;
+}
+@media only screen and (max-width:700px){
+    span{
+        display: block;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    ul{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second{
+        display: none;
+    }
+    .third{
+        display: none;
+    }
+    .media{
+        display: none;
+    }
+    .form{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 49%;
+        height: 344px;
+        margin-top: 62px;
+        
+    }
+    .form input{ 
+        text-align: -webkit-center;
+        align-items: center;
+        margin: 10px 2px 2px -38px;
+        padding: 10px 44px;
+        border: 3px solid goldenrod;
+        border-radius: 20px
+    }
+    .form span{
+        display: block;
+        text-align: -webkit-center;
+        font-size: 1.7rem;
+        text-decoration: underline;
+        color: blueviolet;
+        font-family: sans-serif;
+    }
+    .text-area{
+        margin: 20px 2px 2px -64px;
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        color: blueviolet;
+    }
+    .text-area textarea{
+        border: 2px solid black;
+        border-radius: 59px;
+    }
+    .btn{
+        border: 2px solid purple;
+    margin: 10px 2px 2px -7px;
+    font-size: 20px;
+    border-radius: 40px;
+    background: powderblue;
+    padding: 9px 30px;
+    color: black;
+    cursor: pointer;
+    display: block;
+    }
+}

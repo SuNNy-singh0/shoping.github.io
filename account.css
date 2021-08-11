@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+ scroll-behavior: smooth;
+}
+.container{
+    max-width: 100%;
+    overflow: hidden;
+}
+.items{
+    text-align: right;
+}
+.nav img{
+    height: 53px;
+    float: left;
+    margin: -6px;
+}
+ul li{
+    display: inline;
+    margin: 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    padding: 6px 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul li a:hover{
+    border: 3px solid gold;
+    background-color: honeydew;
+    border-radius: 50px;
+    font-size: 1.4rem;
+}
+.nav{
+    background: #f7d0d2f2;
+    padding: 20px;
+    
+}
+span{
+    margin: 0px 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+.footer{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 43px;
+}
+.app{
+    font-family: sans-serif;
+    flex-basis: 30%;
+}
+.second{
+    flex-basis: 30%;
+    font-family: serif;
+    text-decoration: underline;
+}
+.second p{
+    font-size: 1.5rem;
+}
+.second img{
+    width: 80%;
+}
+.third{
+    flex-basis: 20%;
+    list-style: none;
+}
+.third h3{
+    color: purple ;
+}
+.media h3{
+    color: purple ;
+}
+.app h1{
+    color: purple ;
+}
+.third li{
+    margin-top: 8px;
+}
+.media li{
+    margin-top: 8px;
+}
+.media{
+    list-style: none;
+}
+#app-logo{
+    margin-top: 20px;
+    width: 140px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col-2 img{
+    width: 552px;
+    height: 397px;
+    margin: 55px 0px -59px 53px;
+}
+.col-1{
+
+    width: 100%;
+    margin-bottom: 86px;
+}
+.form-btn span{
+    display:inline-block;
+    color: blueviolet;
+     font-weight: bold;
+     text-decoration: underline;
+     margin-left: 150px;
+     cursor: pointer;
+     margin-top: 20px;
+    margin-bottom: 1px;
+}
+#two{
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 150px;
+    cursor: pointer;
+    margin: 10px 2px 2px 99px;
+}
+.form-btn span:hover{
+    color: black;
+}
+#left{
+    margin: 48px 2px 2px 37px;
+}
+#left input{
+    border: 3px solid orange;
+    padding: 11px 4px;
+    border-radius: 38px;
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 14px;
+    text-align: center
+}
+#right{
+    margin: -224px 2px 2px 361px;
+}
+#right input{
+    border: 3px solid orange;
+    padding: 11px 4px;
+    border-radius: 38px;
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 14px;
+    text-align: center
+}
+.btn{
+    border: 2px solid purple;
+    margin: 20px 2px 2px 91px;
+    font-size: 20px;
+    border-radius: 40px;
+    background: powderblue;
+    padding: 9px 30px;
+    color: black;
+    cursor: pointer;
+}
+.btn-1{
+    border: 2px solid purple;
+    margin: 20px 2px 2px 91px;
+    font-size: 20px;
+    border-radius: 40px;
+    background: powderblue;
+    padding: 9px 30px;
+    color: black;
+    cursor: pointer;
+}
+#left a{
+    font-size: 1.3rem;
+    color: blueviolet;
+    list-style: none;
+    text-decoration: underline;
+    margin: 8px 2px 2px 77px;
+}
+@media only screen and (max-width:700px){
+    span{
+        display: block;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    ul{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second{
+        display: none;
+    }
+    .third{
+        display: none;
+    }
+    .media{
+        display: none;
+    }
+    .searchbox{
+       margin: -3px 2px 2px 60px
+    }
+    .row{
+        flex-direction: column;
+    }
+     .col-2 img{
+        width: 292px;
+        height: 346px;
+        margin: 34px 0px 14px 53px;
+      }
+      #two{
+          margin-top: 2px;
+      }
+      #right{
+       margin:  47px 2px 2px 76px;
+      }   
+      .btn-1{
+          margin: 33px 2px 2px 55px;
+      }  
+      #left{
+          margin: 18px 2px 2px 69px;
+      }
+      .form-btn{
+          display: block;
+      }
+      #register{
+          display: none;
+      }
+}
